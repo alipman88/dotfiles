@@ -1,0 +1,32 @@
+[user]
+	name = Aaron Lipman
+	email = alipman88@gmail.com
+[alias]
+	co = checkout
+[core]
+	editor = subl -n -w
+	excludesfile = /Users/Work/.gitignore
+	autocrlf = true
+[credential]
+	helper = osxkeychain
+[push]
+	default = matching
+[branch]
+	autosetuprebase = always
+[color]
+	ui = true
+ 
+[color "branch"]
+current = yellow reverse
+local = yellow
+remote = green
+[color "diff"]
+meta = yellow bold
+frag = magenta bold
+old = red bold
+new = green bold
+whitespace = red reverse
+[color "status"]
+added = yellow
+changed = green
+untracked = cyan
